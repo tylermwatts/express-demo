@@ -2,7 +2,7 @@
   "name": "express-demo",
   "version": "1.0.0",
   "description": "express demo",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "test"
   },
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/warpfox/express-demo#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0"
   }
 }
